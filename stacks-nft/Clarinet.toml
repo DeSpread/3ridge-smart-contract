@@ -1,0 +1,28 @@
+[project]
+name = "stacks-3ridge-seoul-meetup-2023"
+authors = ["stacks-3ridge-seoul-meetup-2023 devops"]
+description = ""
+telemetry = true
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+
+[contracts.stacks-3ridge-seoul-meetup-2023-nft-mint]
+path = "contracts/stacks-3ridge-seoul-meetup-2023-nft-mint.clar"
+depends_on = ["stacks-3ridge-seoul-meetup-2023-nft"]
+
+[contracts.stacks-3ridge-seoul-meetup-2023-nft]
+path = "contracts/stacks-3ridge-seoul-meetup-2023-nft.clar"
+depends_on = ["sip-009-nft-trait-standard", "commission-trait"]
+
+[contracts.sip-009-nft-trait-standard]
+path = "contracts/external/sip-009-nft-trait-standard.clar"
+depends_on = []
+
+[contracts.commission-trait]
+path = "contracts/external/commission-trait.clar"
+depends_on = []
+
+[contracts.stacks-3ridge-seoul-meetup-2023-nft-commission]
+path = "contracts/external/stacks-3ridge-seoul-meetup-2023-nft-commission.clar"
+depends_on = []

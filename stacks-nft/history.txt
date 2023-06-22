@@ -1,0 +1,20 @@
+#V2
+(contract-call? .citycats-nft get-last-token-id)
+(contract-call? .citycats-nft-mint flip-pre-sale)
+(contract-call? .citycats-nft-mint mint)
+(contract-call? .citycats-nft-mint get-pre-sale-active)
+(contract-call? .citycats-nft-mint flip-pre-sale)
+(contract-call? .citycats-nft-mint get-pre-sale-active)
+(contract-call? .citycats-nft get-owner u1)
+(contract-call? .citycats-nft-mint mint)
+(contract-call? .citycats-nft-mint flip-pre-sale)
+(contract-call? .citycats-nft-mint mint)
+(contract-call? .citycats-nft mint)
+(contract-call? .citycats-nft mint 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM)
+(contract-call? .citycats-nft treasure-mint 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM)
+(contract-call? .citycats-nft-mint reward-mint)
+(contract-call? .stacks-3ridge-seoul-meetup-2023-nft-mint reward-mint)
+::help
+::get_assets_maps
+(contract-call? .stacks-3ridge-seoul-meetup-2023-nft-mint mint)
+(contract-call? .stacks-3ridge-seoul-meetup-2023-nft-mint reward-mint)
