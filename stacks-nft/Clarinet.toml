@@ -13,10 +13,10 @@ depends_on = ["stacks-3ridge-seoul-meetup-2023-nft"]
 
 [contracts.stacks-3ridge-seoul-meetup-2023-nft]
 path = "contracts/stacks-3ridge-seoul-meetup-2023-nft.clar"
-depends_on = ["sip-009-nft-trait-standard", "commission-trait"]
+depends_on = ["nft-trait", "commission-trait"]
 
-[contracts.sip-009-nft-trait-standard]
-path = "contracts/external/sip-009-nft-trait-standard.clar"
+[contracts.nft-trait]
+path = "contracts/external/nft-trait.clar"
 depends_on = []
 
 [contracts.commission-trait]

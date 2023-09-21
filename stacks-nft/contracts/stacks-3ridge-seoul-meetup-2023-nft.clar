@@ -1,5 +1,5 @@
-(impl-trait 'SPBGN2NDFZ1PT6TFV6127F53KCP9HHHEB8JHYS34.nft-trait.nft-trait)
-(use-trait commission-trait 'SPBGN2NDFZ1PT6TFV6127F53KCP9HHHEB8JHYS34.commission-trait.commission)
+(impl-trait .nft-trait.nft-trait)
+(use-trait commission-trait .commission-trait.commission)
 
 (define-non-fungible-token stacks-3ridge-seoul-meetup-2023 uint)
 
